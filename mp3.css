@@ -1,28 +1,31 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #080606;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 55vh; /* 50vh = 50% der Höhe */
     margin: 0;
 }
 
 .player-container {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    background-color: #9494946d;
+    padding: 18px; /* 50% der ursprünglichen Polsterung */
+    border-radius: 10px; /* 50% der ursprünglichen Rundung */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 50% der ursprünglichen Schatten */
+    text-align: justify;
+    transform: scale(0.85); /* (0.5) Verkleinert die gesamte Ansicht um 50% */
 }
 
 h1 {
     color: #333333;
+    font-size: 1.5em; /* 50% der ursprünglichen Schriftgröße */
 }
 
 audio {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px; /* 50% des ursprünglichen Abstands */
+   
 }
 
 ul {
@@ -32,16 +35,15 @@ ul {
 
 li {
     cursor: pointer;
-    padding: 10px;
+    padding: 5px; /* 50% der ursprünglichen Polsterung */
     background-color: #e0e0e0;
-    margin: 5px 0;
-    border-radius: 5px;
+    margin: 3.5px 0; /* 50% des ursprünglichen Abstands */
+    border-radius: 3.5px; /* 50% der ursprünglichen Rundung */
 }
 
 li:hover {
-    background-color: #d0d0d0;
+    background-color: #dfa7a7;
 }
-img {
-    width: 80%;
-    margin-top: 20px; 
+p {
+    color: bisque;
 }
