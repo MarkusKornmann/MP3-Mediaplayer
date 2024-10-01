@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="player-container">
-        <h1>Estrayk-Mediaplayer</h1>
+        
         <img src="image.jpg" alt="Estrayk">
         <audio id="audioPlayer" controls>
             <source src="monty.mp3" type="audio/mpeg">
@@ -21,6 +21,67 @@
             <li data-src="her 41.mp3">Her 41</li>
             <li data-src="back.mp3">Back</li>
             <li data-src="Arcane.mp3">Arcane</li>
+            <li data-src="Hybrid.mp3">Hybrid Song</li>
+            <li data-src="Stream.mp3">Amiga Mods</li>
+        </ul>
+    </div>
+    <script>
+        const audioPlayer = document.getElementById('audioPlayer');
+        const playlist = document.getElementById('playlist');
+        const tracks = playlist.getElementsByTagName('li');
+        let currentTrack = 0;
+
+        function loadTrack(index) {
+            audioPlayer.src = tracks[index].getAttribute('data-src');
+            audioPlayer.play();
+        }
+
+        audioPlayer.addEventListener('ended', function() {
+            currentTrack++;
+            if (currentTrack >= tracks.length) {
+                currentTrack = 0;
+            }
+            loadTrack(currentTrack);
+        });
+
+        for (let i = 0; i < tracks.length; i++) {
+            tracks[i].addEventListener('click', function() {
+                currentTrack = i;
+                loadTrack(currentTrack);
+            });
+        }
+
+        // Load the first track initially
+        loadTrack(currentTrack);
+    </script>
+</body>
+</html>
+<!--
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediaplayer</title>
+    <link rel="stylesheet" href="mp3.css">
+</head>
+<body>
+    <div class="player-container">
+        <h1>Estrayk-Mediaplayer</h1>
+        <img src="image.jpg" alt="Estrayk">
+        <audio id="audioPlayer" controls>
+            <source src="monty.mp3" type="audio/mpeg">
+            Ihr Browser unterstützt das Audio-Element nicht.
+        </audio>
+        <ul id="playlist">
+            <li data-src="monty.mp3">Monty</li>
+            <li data-src="fuzzball.mp3">Fuzzball</li>
+            <li data-src="Winds.mp3">Winds</li>
+            <li data-src="her 41.mp3">Her 41</li>
+            <li data-src="back.mp3">Back</li>
+            <li data-src="Hybrid.mp3">Hybrid Song</li>
+            <li data-src="Stream.mp3">Amiga Mods</li>
+            
         </ul>
     </div>
     <script>
@@ -37,4 +98,4 @@
     </script>
 </body>
 </html>
-
+-->
