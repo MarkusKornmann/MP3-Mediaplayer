@@ -1,1 +1,1 @@
-Some Amiga modules in a Player
+Some Amiga modules in a Html-Player
