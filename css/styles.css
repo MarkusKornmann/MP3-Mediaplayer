@@ -2,7 +2,7 @@ html{
     width:100vw;
     font-family:sans-serif;
     height:100vh;
-    color:rgb(205, 128, 195);
+    color:rgba(1, 0, 1, 0.343);
  
     user-select:none;
 }
@@ -10,11 +10,11 @@ body{
     margin:0px;
     padding:0px;
     max-width:100%;
-    height:50%;
+    height:20%;
     background-image:url("https://images.hdqwalls.com/wallpapers/disha-patani-hot-to.jpg");
     background-repeat:no-repeat;
     background-size: cover;
-    background-position:center center;
+    background-position:left;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -30,7 +30,7 @@ li {
 }
 
 li:hover {
-    background-color: #e533adb5;
+    background-color: rgba(10, 100, 210, 0.561)
 }
 nav{
     width:250px;
@@ -43,14 +43,25 @@ nav{
     padding:30px;
 
 }
+p1 {
+    color:rgba(10, 100, 210, 0.561) 
 
-div{
+}
+ol{
   
-    width:-50px;
- 
-    inset:15px;
+    width:0px;
+    height: 0px;
+    inset:0px;
     filter:grayscale(100%);
     -webkit-filter:grayscale(100%);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:left;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    overflow: hidden;
 
 
 
@@ -270,5 +281,27 @@ hr, .hr1{
     background-color: rgba(111, 111, 111, 0.80);
 }
 img{
-    position: right;
+    position: center;
+    padding-top: 80%;
+}
+#audioPlayer {
+    width: 180px; /* Kleinere Breite */
+    height: 150px; 
+    opacity: 0.1; /* Transparenz */
+}
+
+#audioPlayer::-webkit-media-controls-panel {
+    background-color: rgba(142, 27, 27, 0); /* Transparenter Hintergrund */
+}
+
+#audioPlayer::-webkit-media-controls-play-button,
+#audioPlayer::-webkit-media-controls-pause-button,
+#audioPlayer::-webkit-media-controls-timeline,
+#audioPlayer::-webkit-media-controls-current-time-display,
+#audioPlayer::-webkit-media-controls-time-remaining-display,
+#audioPlayer::-webkit-media-controls-seek-back-button,
+#audioPlayer::-webkit-media-controls-seek-forward-button,
+#audioPlayer::-webkit-media-controls-mute-button,
+#audioPlayer::-webkit-media-controls-volume-slider {
+    display: block; /* Zeigt alle Steuerungselemente an */
 }
