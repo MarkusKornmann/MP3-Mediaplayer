@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 55vh; /* 50vh = 50% der Höhe */
+    height: 25vh; /* 50vh = 50% der Höhe */
     margin: 0;
 }
 
@@ -46,4 +46,11 @@ li:hover {
 }
 p {
     color: bisque;
+}
+img {
+    align-items: center;
+    width:100%;height:auto;
+}
+p1 {
+    color: bisque; 
 }
