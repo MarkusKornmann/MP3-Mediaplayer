@@ -30,7 +30,7 @@ li {
 }
 
 li:hover {
-    background-color: rgba(10, 100, 210, 0.561)
+    background-color: rgba(210, 10, 160, 0.244)
 }
 nav{
     width:250px;
@@ -134,7 +134,7 @@ hr, .hr1{
     flex-direction: column;
     align-items: flex-start;
     width:90px;
-    color:lightgray;
+    color:rgb(211, 211, 211);
     cursor: pointer;
     height: 120px;
     margin: 7px;
@@ -285,9 +285,10 @@ img{
     padding-top: 80%;
 }
 #audioPlayer {
-    width: 180px; /* Kleinere Breite */
+    width: 250px; /* Kleinere Breite */
     height: 150px; 
     opacity: 0.1; /* Transparenz */
+   
 }
 
 #audioPlayer::-webkit-media-controls-panel {
