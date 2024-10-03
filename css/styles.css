@@ -30,8 +30,12 @@ li {
 }
 
 li:hover {
-    background-color: rgba(210, 10, 160, 0.244)
+   background-color: rgba(210, 10, 187, 0.181)
+    
+
+
 }
+
 nav{
     width:250px;
     height:470px;
@@ -43,12 +47,19 @@ nav{
     padding:30px;
 
 }
+
 p1 {
-    color:rgba(10, 100, 210, 0.561) 
+  #  #background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    #-webkit-background-clip: text;
+    #color: transparent;
+}
+
+p1 {
+   color:rgba(0, 0, 0, 0.729);
 
 }
 ol{
-  
+  text-align: ;
     width:0px;
     height: 0px;
     inset:0px;
