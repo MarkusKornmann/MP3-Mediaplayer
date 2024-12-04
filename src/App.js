@@ -15,8 +15,7 @@ function App() {
     { src: "https://lmy.de/qvWeM", title: "Speedball2" },
     { src: "https://lmy.de/aeluu", title: "Crystal Hammer" },
     { src: "https://lmy.de/HauJG", title: "Kid Chaos" },
-    { src: "https://lmy.de/gvgNHg", title: "Lotus 3" },
-  ];
+     ];
 
   useEffect(() => {
     const audioPlayer = document.getElementById("audioPlayer");

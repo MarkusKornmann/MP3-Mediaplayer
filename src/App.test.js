@@ -15,7 +15,7 @@ test('überprüfe, ob die Titel noch unverändert sind:', () => {
         "Speedball2",
         "Crystal Hammer",
         "Kid Chaos"
-    ];
+       ];
 
     render(<App />);
     const playlistItems = screen.getAllByRole('listitem');
