@@ -2,7 +2,7 @@ html {
     width: 100vw;
     font-family: sans-serif;
     height: 100vh;
-    color: rgb(0, 0, 0);
+    color: rgb(151, 147, 147);
     user-select: none;
   }
   
@@ -11,7 +11,9 @@ html {
     padding: 0px;
     max-width: 94%;
     height: 25%;
-    background-image: url(https://images.hdqwalls.com/download/gta-5-nature-7r-1920x1080.jpg);
+    background-image: url(https://scitechdaily.com/images/Plasma-Energy-Generation-Concept-Slow.gif);
+    /*background-image: url(https://cdn.pixabay.com/animation/2023/06/25/21/55/21-55-38-961_512.gif);*/
+    /* background-image: url(https://images.hdqwalls.com/download/gta-5-nature-7r-1920x1080.jpg);*/
     /*background-image: url("https://images.hdqwalls.com/download/son-goku-dragon-ball-z-minimal-4k-po-1923x1082.jpg");*/
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,23 +28,23 @@ html {
   li {
     cursor: pointer;
     padding: 3.5px; /* Beispiel: 50% der ursprünglichen Polsterung */
-    background-color: #f3f3f343;
+    background-color: #2d3da8ca;
     margin: 3.5px 0; /* Beispiel: 50% des ursprünglichen Abstands */
     border-radius: 3.5px; /* Beispiel: 50% der ursprünglichen Rundung */
   }
   
   li:hover {
-    background-color: rgba(25, 171, 173, 0.586);
+    background-color: rgba(32, 127, 199, 0.516);
   }
   
   .player-container {
     width: 275px; /* Kleinere Breite */
     height: 80px;
-    opacity: 0.5; /* Transparenz */
+    opacity: 0.9; /* Transparenz */
   }
   
   audio::-webkit-media-controls-panel {
-    background-color: rgba(104, 71, 71, 0.468); /* Transparenter Hintergrund */
+    background-color: rgba(186, 201, 254, 0.893); /* Transparenter Hintergrund Player!*/
   }
   
   audio::-webkit-media-controls-play-button,
