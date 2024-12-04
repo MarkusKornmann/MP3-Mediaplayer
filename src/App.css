@@ -2,21 +2,22 @@ html {
     width: 100vw;
     font-family: sans-serif;
     height: 100vh;
-    color: rgba(1, 0, 1, 0.343);
+    color: rgb(0, 0, 0);
     user-select: none;
   }
   
   body {
     margin: 0px;
     padding: 0px;
-    max-width: 100%;
-    height: 20%;
-    background-image: url("https://images.hdqwalls.com/download/son-goku-dragon-ball-z-minimal-4k-po-1923x1082.jpg");
+    max-width: 94%;
+    height: 25%;
+    background-image: url(https://images.hdqwalls.com/download/gta-5-nature-7r-1920x1080.jpg);
+    /*background-image: url("https://images.hdqwalls.com/download/son-goku-dragon-ball-z-minimal-4k-po-1923x1082.jpg");*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -31,17 +32,17 @@ html {
   }
   
   li:hover {
-    background-color: rgba(210, 10, 187, 0.181);
+    background-color: rgba(25, 171, 173, 0.586);
   }
   
   .player-container {
-    width: 320px; /* Kleinere Breite */
-    height: 150px;
-    opacity: 0.3; /* Transparenz */
+    width: 275px; /* Kleinere Breite */
+    height: 80px;
+    opacity: 0.5; /* Transparenz */
   }
   
   audio::-webkit-media-controls-panel {
-    background-color: rgba(142, 27, 27, 0); /* Transparenter Hintergrund */
+    background-color: rgba(104, 71, 71, 0.468); /* Transparenter Hintergrund */
   }
   
   audio::-webkit-media-controls-play-button,
